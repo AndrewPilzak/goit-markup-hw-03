@@ -1,2 +1,1 @@
-# goit-markup-hw-03
-GoIT - zadanie domowe 03
+https://andrewpilzak.github.io/goit-markup-hw-03/
