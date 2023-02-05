@@ -22,13 +22,66 @@ body {
     letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 a, ul {
     list-style: none;
     text-decoration: none;
     color: var(--main-text-color);
 }
 
+.page-header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
 .logo {
+    width: 145px;
+    height: 31px;
+    margin-left: 215px;
+    top: 24px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -44,6 +97,19 @@ a, ul {
 }
 .address-top {
     color: var(--owner-text-color);
+}
+
+.nav-menu{
+    display: flex;
+    width: 254px;
+    height: 16px;
+    margin-left: 93px;
+    margin-right: 371px;
+    top: 32px;
+}
+
+.nav-menu .item{
+    margin: auto;
 }
 
 .nav-link, .address-top  {
@@ -64,8 +130,22 @@ a, ul {
     color: var(--accent-color);
 }
 
+.address {
+    display: flex;
+    top: 32px;
+}
+
+.address .item {
+    padding: 25px;
+}
+
 .hero {
     background: #2F303A;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-title {
@@ -77,7 +157,12 @@ a, ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--background-color);    
+    color: var(--background-color);
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    margin-bottom: 30px;
 }
 
 .section-title {
@@ -164,6 +249,7 @@ a, ul {
     cursor: pointer;
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 }
 
 .button:hover, .button:focus {
@@ -201,7 +287,6 @@ a, ul {
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
 }
-
 
 .address-bottom:hover, .address-bottom:focus  {
     color: var(--accent-color)
