@@ -81,7 +81,6 @@ a, ul {
     width: 145px;
     height: 31px;
     margin-left: 215px;
-    top: 24px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -92,7 +91,23 @@ a, ul {
     color: var(--accent-color);
 }
 
-.logo .logo-studio {
+.logo-footer {
+    width: 145px;
+    height: 31px;
+    margin-left: 215px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.logo-footer .logo-web {
+    color: var(--accent-color);
+}
+
+.logo-footer .logo-studio {
     color: var(--background-color);
 }
 .address-top {
@@ -219,25 +234,30 @@ a, ul {
     left: 0px;
     top: 1449px;
     background-color: var(--background-section);
+    padding-top: 94px;
 }
 
 .team-box {
     display: flex;
     justify-content: space-between;
-    /* position: absolute; */
     width: 1170px;
     height: 368px;
     margin-left: 215px;
-    top: 1635px;
-
- 
+    margin-top: 50px;
 }
 .team-name {
     font-weight: 500;
     line-height: 1.19;
-
     color: var(--main-text-color);
 }
+
+
+
+/* !!! ZROBIĆ KARTY TEAM !!!
+INFO W KONSPEKCIE
+https://www.edu.goit.global/pl/learn/10158184/5360994/5361006/textbook */
+
+
 
 .portfolio {
     font-weight: 700;
@@ -326,8 +346,20 @@ a, ul {
 }
 
 .footer{
+    display: flex;
+    flex-direction: column;
     background-color: var(--background-footer);
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
 }
+
+.address-footer {
+    margin-left: 215px;
+}
+
 .address-bottom  {
     font-style: normal;
     line-height: 1.71;
