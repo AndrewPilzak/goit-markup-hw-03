@@ -75,6 +75,7 @@ a, ul {
     display: flex;
     height: 80px;
     align-items: center;
+    border: 1px solid var(--line-color);
 }
 
 .logo {
@@ -245,25 +246,38 @@ a, ul {
     margin-left: 215px;
     margin-top: 50px;
 }
+
 .team-name {
     font-weight: 500;
     line-height: 1.19;
     color: var(--main-text-color);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-
-
-/* !!! ZROBIĆ KARTY TEAM !!!
-INFO W KONSPEKCIE
-https://www.edu.goit.global/pl/learn/10158184/5360994/5361006/textbook */
-
-
-
+.team-card {
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background-color: var(--background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+    
+.card-image.no-gap {
+    display: block;
+}
+  
 .portfolio {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-left: 24px;
+    margin-top: 20px;
 }
 
 .visually-hidden {
@@ -289,6 +303,8 @@ https://www.edu.goit.global/pl/learn/10158184/5360994/5361006/textbook */
     font-size: 16px;
     line-height: 1.19;
     color: var(--owner-text-color);
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .text-portfolio {
@@ -296,6 +312,7 @@ https://www.edu.goit.global/pl/learn/10158184/5360994/5361006/textbook */
     line-height: 1.88;
     letter-spacing: 0.03em;    
     color: var(--owner-text-color);
+    margin-left: 24px;
 }
 
 .button {
@@ -318,6 +335,16 @@ https://www.edu.goit.global/pl/learn/10158184/5360994/5361006/textbook */
 
 }
 
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 572px;
+    height: 54px;
+    margin-left: 510px;
+    margin-top: 94px;
+}
+
 .button:hover, .button:focus {
     color: var(--main-text-color);
     background-color: var(--background-color)
@@ -334,6 +361,10 @@ https://www.edu.goit.global/pl/learn/10158184/5360994/5361006/textbook */
     background: var(--background-section);
     border-radius: 4px;
     border-style: none;
+    padding-left: 22px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
 }
 
 .portfolio-button:hover,
@@ -343,6 +374,27 @@ https://www.edu.goit.global/pl/learn/10158184/5360994/5361006/textbook */
     cursor: pointer;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+
+.portfolio-net {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 1170px;
+    height: 1360px;
+    margin-left: 215px;
+    margin-top: 30px;
+    top: 174px;
+    gap: 30px;
+}
+
+.portfolio-card {
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    background: var(--background-color);
+    border: 1px solid var(--container-color)
 }
 
 .footer{
@@ -356,6 +408,16 @@ https://www.edu.goit.global/pl/learn/10158184/5360994/5361006/textbook */
     top: 2097px;
 }
 
+.footer-porfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-footer);
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+}
 .address-footer {
     margin-left: 215px;
 }
