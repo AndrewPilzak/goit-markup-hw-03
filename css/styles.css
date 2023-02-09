@@ -55,14 +55,14 @@ button {
   border-radius: 4px;
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 a, ul {
@@ -75,13 +75,11 @@ a, ul {
     display: flex;
     height: 80px;
     align-items: center;
-    border: 1px solid var(--line-color);
+    /* justify-content: center; */
+    border-bottom: 1px solid var(--line-color);
 }
 
 .logo {
-    width: 145px;
-    height: 31px;
-    margin-left: 215px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -115,13 +113,14 @@ a, ul {
     color: var(--owner-text-color);
 }
 
+nav {
+    margin-left: 93px;
+    margin-right: auto;
+
+}
 .nav-menu{
     display: flex;
-    width: 254px;
-    height: 16px;
-    margin-left: 93px;
-    margin-right: 371px;
-    top: 32px;
+    gap: 46px;
 }
 
 .nav-menu .item {
@@ -148,11 +147,10 @@ a, ul {
 
 .address {
     display: flex;
-    top: 32px;
 }
 
-.address .item {
-    padding-left: 25px;
+.address .item + .item {
+    margin-left: 50px;
 }
 
 .hero {
