@@ -90,15 +90,10 @@ a, ul {
 }
 
 .logo-footer {
-    width: 145px;
-    height: 31px;
-    margin-left: 215px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    margin-top: 60px;
-    margin-bottom: 20px;
 }
 
 .logo-footer .logo-web {
@@ -154,12 +149,8 @@ nav {
 
 .hero {
     background: var(--background-footer);
-    width: 1600px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 200px 0;
+    text-align: center;
 }
 
 .hero-title {
@@ -173,10 +164,7 @@ nav {
     text-transform: uppercase;
     color: var(--background-color);
     width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    margin-bottom: 30px;
+    margin: auto;
 }
 
 .section-title {
@@ -189,18 +177,13 @@ nav {
 }
 
 .attributes {
-    position: absolute;
     display: flex;
-    width: 1170px;
-    height: 101px;
-    top: 774px;
-    left: 215px;
 }
 
 .attr-box {
-    display: contents;
-    width: 270px;
-    padding: 0px;
+    display: flex;
+    width: 1170px;
+    margin-top: 94px;
 }
 
 .our-attributes {
@@ -208,14 +191,11 @@ nav {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }    
 
 .work {
-    position: absolute;
-    width: 1170px;
-    height: 386px;
-    left: 215px;
-    top: 969px;
+margin-top: 94px;
 }
 
 .work-box {
@@ -226,11 +206,8 @@ nav {
 }
 
 .team {
-    position: absolute;
-    width: 1600px;
+    display: flex;
     height: 648px;
-    left: 0px;
-    top: 1449px;
     background-color: var(--background-section);
     padding-top: 94px;
 }
@@ -238,9 +215,6 @@ nav {
 .team-box {
     display: flex;
     justify-content: space-between;
-    width: 1170px;
-    height: 368px;
-    margin-left: 215px;
     margin-top: 50px;
 }
 
@@ -313,10 +287,6 @@ nav {
 }
 
 .button {
-    height: 50px;
-    width: 200px;
-    left: 700px;
-    top: 430px;
     border-radius: 4px;
     font-family: var(--main-font);
     font-style: normal;
@@ -329,17 +299,17 @@ nav {
     cursor: pointer;
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 42px;
 }
 
 .filters {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 572px;
-    height: 54px;
-    margin-left: 510px;
     margin-top: 94px;
+    gap: 8px;
+    justify-content: center;
 }
 
 .button:hover, .button:focus {
@@ -377,11 +347,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    width: 1170px;
-    height: 1360px;
-    margin-left: 215px;
-    margin-top: 30px;
-    top: 174px;
+    margin-top: 50px;
+    margin-bottom: 94px;
     gap: 30px;
 }
 
@@ -395,28 +362,17 @@ nav {
 }
 
 .footer{
-    display: flex;
-    flex-direction: column;
     background-color: var(--background-footer);
-    position: absolute;
-    width: 1600px;
     height: 252px;
-    left: 0px;
-    top: 2097px;
+    padding-top: 60px;
 }
 
-.footer-porfolio {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--background-footer);
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-}
 .address-footer {
-    margin-left: 215px;
+    margin-top: 20px;
+}
+
+.address-footer li {
+    margin-bottom: 9px;
 }
 
 .address-bottom  {
